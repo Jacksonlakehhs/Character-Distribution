@@ -37,12 +37,14 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 string = input("Please enter a string of text (the bigger the better): ")
+string = string.lower()
 print('The distribution of characters in "{0}" is: '.format(string))
 
 allletters = "abcdefghijklmnopqrstuvwxy"
-for l in allletters:
-    #lttrs = list(string)
-    print(string.count(l))
+for i in allletters:
+    #print(string.count(i))
+    sep = (string.count(i)*i)
+    print(sep)
 
 
 
