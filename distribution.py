@@ -44,9 +44,7 @@ lines = []
 
 allletters = "abcdefghijklmnopqrstuvwxy"
 for i in allletters:
-    #print(string.count(i))
     lines.append(string.count(i)*i)
-    #print(sep)
 
 maxlen = len(string)
 while maxlen > 0:
