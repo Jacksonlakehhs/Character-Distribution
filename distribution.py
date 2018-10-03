@@ -45,6 +45,3 @@ for i in allletters:
     #print(string.count(i))
     sep = (string.count(i)*i)
     print(sep)
-
-
-
